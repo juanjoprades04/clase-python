@@ -14,3 +14,11 @@ def saludar(nombre):
     return f'Hola {nombre}'
 
 print(saludar('Juanjo'))
+
+def cuenta_caracteres(palabra):
+    if type(palabra) == str:
+        return f'String. {len(palabra)}'
+    else:
+        return 'Debo ser ejecutada con un string'
+
+print(cuenta_caracteres('Juanjo'))
