@@ -9,3 +9,8 @@ contador = 7
 while contador < 12:
     print(contador)
     contador += 1
+
+def saludar(nombre):
+    return f'Hola {nombre}'
+
+print(saludar('Juanjo'))
