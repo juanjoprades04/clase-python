@@ -22,3 +22,6 @@ def cuenta_caracteres(palabra):
         return 'Debo ser ejecutada con un string'
 
 print(cuenta_caracteres('Juanjo'))
+
+letra=lambda tex: tex[0]
+print(letra('hola'))
