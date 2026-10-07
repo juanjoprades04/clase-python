@@ -6,3 +6,11 @@ for i in lista_edades:
         break
     print(i)
 
+contador = 0
+while contador < 5:
+    try:
+        float(input('Escribe un numero: '))
+        break
+    except:
+        print('Numero no valido, intentalo de nuevo')
+        contador += 1
